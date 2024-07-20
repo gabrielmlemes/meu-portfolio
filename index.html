@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/image-Gabriel.jpeg" type="image/x-icon" />
+    <!--Google Fonts - Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google Fonts - Dosis-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--META TAG OG-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gabriel Lemes | Portfólio" />
+    <meta
+      property="og:image"
+      content="https://odevburguer.vercel.app/assets/images/hamb-1.png"
+    />
+    <meta
+      property="og:description"
+      content="Opa, e aí?! Dá uma olhadinha no meu portfólio!"
+    />
+    <meta property="og:site_name" content="Gabriel Lemes | Portfólio" />
+    <!--/-->
+
+    <!--AOS STYLE-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Gabriel Lemes | Portfólio</title>
+  </head>
+
+  <!-- <nav data-aos="fade-down" data-aos-duration="1500">
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav> -->
+  <body>
+    <header>
+      <a href="#inicio" class="logo" data-aos="fade-right">GL</a>
+      <div class="navigation">
+        <ul>
+          <li class="list active">
+            <a href="#inicio">
+              <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#sobre">
+              <span class="icon">
+                <ion-icon name="person-outline"></ion-icon>
+              </span>
+              <span class="text">Sobre</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#projetos">
+              <span class="icon">
+                <ion-icon name="desktop-outline"></ion-icon>
+              </span>
+              <span class="text">Projetos</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#contato">
+              <span class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </span>
+              <span class="text">Contato</span>
+            </a>
+          </li>
+          <div class="indicator"></div>
+        </ul>
+      </div>
+      <input type="checkbox" id="darkmode-toggle" />
+      <label
+        for="darkmode-toggle"
+        class="darkmode-toggle"
+        data-aos="fade-left"
+      ></label>
+    </header>
+
+    <main>
+      <section class="home" id="inicio">
+        <div class="home-text">
+          <h2>• Gabriel Lemes •</h2>
+          <h1 class="typewriter">Desenvolvedor Web</h1>
+        </div>
+        <div class="home-image">
+          <img src="assets/image-Gabriel.jpeg" alt="Gabriel Lemes" />
+        </div>
+        <a href="#sobre" class="home-arrow">
+          <img
+            src="assets/arrow-down-wide-short-svgrepo-com.svg"
+            alt="ÍCONE ARROW"
+          />
+        </a>
+      </section>
+
+      <section id="sobre">
+        <div
+          class="container-alinhamento"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <h2 class="titles">Sobre</h2>
+          <p class="sobre-text">
+            Crio interfaces intuitivas que não apenas são esteticamente
+            agradáveis, mas também focadas na experiência do usuário. Com uma
+            abordagem meticulosa e criativa, busco simplificar complexidades,
+            transformando ideias em soluções digitais.
+          </p>
+          <h4 class="titles">Skills</h4>
+          <div class="skills">
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img src="assets/skills/html.svg" alt="LOGO HTML" />
+              <p class="skills-name">HTML</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img src="assets/skills/css-3-svgrepo-com.svg" alt="LOGO CSS" />
+              <p class="skills-name">CSS</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img
+                src="assets/skills/javascript-svgrepo-com.svg"
+                alt="LOGO JS"
+              />
+              <p class="skills-name">JAVASCRIPT</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img src="assets/skills/react-svgrepo-com.svg" alt="LOGO REACT" />
+              <p class="skills-name">REACT</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img
+                src="assets/skills/typescript-svgrepo-com.svg"
+                alt="LOGO TYPESCRIPT"
+              />
+              <p class="skills-name">TYPESCRIPT</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img
+                src="assets/skills/nextjs-svgrepo-com.svg"
+                alt="LOGO NEXT.JS"
+              />
+              <p class="skills-name">NEXT</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img
+                src="assets/skills/bootstrap-svgrepo-com.svg"
+                alt="LOGO BOOTSTRAP"
+              />
+              <p class="skills-name">BOOTSTRAP</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img src="assets/skills/sass-svgrepo-com.svg" alt="LOGO SASS" />
+              <p class="skills-name">SASS</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img
+                src="assets/skills/tailwind-svgrepo-com.svg"
+                alt="LOGO TAILWIND"
+              />
+              <p class="skills-name">TAILWIND</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img src="assets/skills/git-svgrepo-com.svg" alt="LOGO GIT" />
+              <p class="skills-name">GIT</p>
+            </div>
+            <div
+              class="skills-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
+              <img
+                src="assets/skills/github-color-svgrepo-com.svg"
+                alt="LOGO GITHUB"
+              />
+              <p class="skills-name">GITUB</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="container-alinhamento"
+        id="projetos"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
+        <h2 class="titles">Projetos</h2>
+
+        <div class="conteudo__geral">
+          <div class="container-projetos">
+            <div class="container-carrossel">
+              <div class="carrossel">
+                <div class="carrossel-item">
+                  <div class="carrossel-projects">
+                    <img
+                      src="assets/projects-images/devburguer.png"
+                      alt="IMAGEM PROJETO"
+                      class="carrossel-image"
+                    />
+                    <div class="carrosel-alinhamento">
+                      <h3>DevBurguer</h3>
+                      <div class="tecnologias">
+                        <p>Tecnologias:</p>
+                        <img src="assets/skills/html.svg" alt="SVG HTML" />
+                        <img
+                          src="assets/skills/css-3-svgrepo-com.svg"
+                          alt="SVG CSS"
+                        />
+                        <img
+                          src="assets/skills/javascript-svgrepo-com.svg"
+                          alt="SVG JAVASCRIPT"
+                        />
+                        <img
+                          src="assets/skills/tailwind-svgrepo-com.svg"
+                          alt="SVG TAILWIND"
+                        />
+                      </div>
+                      <div class="links-projetos">
+                        <a
+                          href="https://github.com/gabrielmlemes/dev-burguer"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/projects-images/github-link.svg"
+                            alt="ICONE GITHUB"
+                          />
+                        </a>
+                        |
+                        <a
+                          href="https://odevburguer.vercel.app/"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/skills/development-web-development-svgrepo-com.svg"
+                            alt="ICONE DEPLOY"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carrossel-item">
+                  <div class="carrossel-projects">
+                    <img
+                      src="assets/projects-images/devflix-image.png"
+                      alt="IMAGEM PROJETO"
+                      class="carrossel-image"
+                    />
+                    <div class="carrosel-alinhamento">
+                      <h3>DevFlix</h3>
+                      <div class="tecnologias">
+                        <p>Tecnologias:</p>
+                        <img src="assets/skills/html.svg" alt="SVG HTML" />
+                        <img
+                          src="assets/skills/css-3-svgrepo-com.svg"
+                          alt="SVG CSS"
+                        />
+                        <img
+                          src="assets/skills/javascript-svgrepo-com.svg"
+                          alt="SVG JAVASCRIPT"
+                        />
+                        <img
+                          src="assets/skills/react-svgrepo-com.svg"
+                          alt="SVG REACT"
+                        />
+                      </div>
+                      <div class="links-projetos">
+                        <a
+                          href="https://github.com/gabrielmlemes/dev-flix"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/projects-images/github-link.svg"
+                            alt="ICONE GITHUB"
+                          />
+                        </a>
+                        |
+                        <a
+                          href="https://lemesdevflix.vercel.app/"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/skills/development-web-development-svgrepo-com.svg"
+                            alt="ICONE DEPLOY"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carrossel-item">
+                  <div class="carrossel-projects">
+                    <img
+                      src="assets/projects-images/barber.png"
+                      alt="IMAGEM PROJETO"
+                      class="carrossel-image"
+                    />
+                    <div class="carrosel-alinhamento">
+                      <h3>DevBarber</h3>
+                      <div class="tecnologias">
+                        <p>Tecnologias:</p>
+                        <img src="assets/skills/html.svg" alt="SVG HTML" />
+                        <img
+                          src="assets/skills/css-3-svgrepo-com.svg"
+                          alt="SVG CSS"
+                        />
+                        <img
+                          src="assets/skills/javascript-svgrepo-com.svg"
+                          alt="SVG JAVASCRIPT"
+                        />
+                        <img
+                          src="assets/skills/sass-svgrepo-com.svg"
+                          alt="SVG SASS"
+                        />
+                      </div>
+                      <div class="links-projetos">
+                        <a
+                          href="https://github.com/gabrielmlemes/LandingPageBarberShop"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/projects-images/github-link.svg"
+                            alt="ICONE GITHUB"
+                          />
+                        </a>
+                        |
+                        <a
+                          href="https://my-barber-shop.vercel.app/"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/skills/development-web-development-svgrepo-com.svg"
+                            alt="ICONE DEPLOY"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carrossel-item">
+                  <div class="carrossel-projects">
+                    <img
+                      src="assets/projects-images/devfrases.png"
+                      alt="IMAGEM PROJETO"
+                      class="carrossel-image"
+                    />
+                    <div class="carrosel-alinhamento">
+                      <h3>DevFrases</h3>
+                      <div class="tecnologias">
+                        <p>Tecnologias:</p>
+                        <img src="assets/skills/html.svg" alt="SVG HTML" />
+                        <img
+                          src="assets/skills/css-3-svgrepo-com.svg"
+                          alt="SVG CSS"
+                        />
+                        <img
+                          src="assets/skills/javascript-svgrepo-com.svg"
+                          alt="SVG JAVASCRIPT"
+                        />
+                        <img
+                          src="assets/skills/react-svgrepo-com.svg"
+                          alt="SVG REACT"
+                        />
+                        <img
+                          src="assets/skills/typescript-svgrepo-com.svg"
+                          alt="SVG TYPESCRIPT"
+                        />
+                      </div>
+                      <div class="links-projetos">
+                        <a
+                          href="https://github.com/gabrielmlemes/dev-frases"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/projects-images/github-link.svg"
+                            alt="ICONE GITHUB"
+                          />
+                        </a>
+                        |
+                        <a
+                          href="https://devfrases-do-dia.vercel.app/"
+                          target="_blank"
+                        >
+                          <img
+                            src="assets/skills/development-web-development-svgrepo-com.svg"
+                            alt="ICONE DEPLOY"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#contato" class="home-arrow projects-arrow">
+          <img
+            src="assets/arrow-down-wide-short-svgrepo-com.svg"
+            alt="ÍCONE ARROW"
+          />
+        </a>
+      </section>
+
+      <section
+        class="container-alinhamento"
+        id="contato"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
+        <h2 class="titles">Contato</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="https://github.com/gabrielmlemes" target="_blank"
+            ><img
+              src="assets/projects-images/github-link.svg"
+              alt="ÍCONE GITHUB"
+              class="footer-icon"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/gabriel-l-775abb103/"
+            target="_blank"
+            ><img
+              src="assets/skills/linkedin-161-svgrepo-com.svg"
+              alt="ÍCONE DO LINKEDIN"
+              class="footer-icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/g_lemess/" target="_blank"
+            ><img
+              src="assets/skills/instagram-svgrepo-com.svg"
+              alt="ÍCONE DO INSTAGRAM"
+              class="footer-icon"
+          /></a>
+        </li>
+      </ul>
+      <div class="footer-alinhamento">
+        <p>© Copyright 2024 •</p>
+        <p>Desenvolvido por Gabriel Moreira Lemes</p>
+        <img
+          src="assets/coffee-svgrepo-com.svg"
+          alt="ÍCONE CAFÉ"
+          class="footer-icon"
+        />
+      </div>
+    </footer>
+
+    <!-- BTN CURRICULO -->
+    <a
+      href="assets/Currículo Gabriel Moreira Lemes.pdf"
+      class="btn-curriculo"
+      target="_blank"
+      data-aos="zoom-out-left"
+      download
+    >
+      <img src="assets/link-curriculum.png" alt="ícone wpp" />
+      <span class="tooltip-text">Baixar curriculo</span>
+    </a>
+
+    <!--LINKS SIDEBAR-->
+    <div class="links" data-aos="fade-left">
+      <a
+        href="https://api.whatsapp.com/send?phone=5561986626251&text=Olá,%20vim%20pelo%20seu%20portfólio!"
+        class="linksbg"
+        target="_blank"
+        data-aos="fade-left"
+        data-aos-duration="800"
+      >
+        <img
+          src="assets/skills/whatsapp-svgrepo-com.svg"
+          alt="ÍCONE WHATSAPP"
+        />
+        <span class="tooltip-text">Whatapp</span>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/gabriel-l-775abb103/"
+        class="linksbg"
+        target="_blank"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
+        <img src="assets/linkedin-link.svg" alt="ÍCONE LINKEDIN" />
+        <span class="tooltip-text">Linkedin</span>
+      </a>
+      <a
+        href="https://www.instagram.com/g_lemess/"
+        class="linksbg"
+        target="_blank"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <img src="assets/insta-link.svg" alt="ÍCONE INSTAGRAM" />
+        <span class="tooltip-text">Instagram</span>
+      </a>
+      <a
+        href=""
+        class="linksbg"
+        target="_blank"
+        data-aos="fade-left"
+        data-aos-duration="2500"
+      >
+        <img src="assets/github-link.svg" alt="ÍCONE GITHUB" />
+        <span class="tooltip-text">Github</span>
+      </a>
+    </div>
+
+    <!-- 
+    --------------------------------------SCRIPTS
+    -->
+    <!--script header-->
+    <script>
+      const list = document.querySelectorAll(".list");
+      function activeLink() {
+        list.forEach((item) => item.classList.remove("active"));
+        this.classList.add("active");
+      }
+
+      list.forEach((item) => item.addEventListener("click", activeLink));
+    </script>
+
+    <!--Monitorar scroll header-->
+    <script src="src/monitorar-header.js"></script>
+    <!--Máquina de escrever-->
+    <script src="src/maquina-de-escrever.js"></script>
+    <!--CARROSSEL FLUTUANTE DE PROJETOS-->
+    <script src="src/projects.js"></script>
+    <!--ENVIAR EMAIL-->
+    <script src="src/email.js"></script>
+    <!--Script para trocar o tema da page-->
+    <script src="./src/toggle-theme.js" defer></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/aos.js"></script>
+    <!--ION ICONS-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
