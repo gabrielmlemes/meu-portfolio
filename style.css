@@ -518,6 +518,7 @@ p {
 }
 
 .links-projetos {
+  padding-top: 10px;
   display: flex;
   gap: 10px;
   padding-bottom: 10px;
@@ -566,6 +567,11 @@ p {
   display: flex;
   margin: 80px auto;
   filter: drop-shadow(1px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.visit-project {
+  text-decoration: none;
+  color: #29fd53;
 }
 
 /*
