@@ -7,6 +7,7 @@
 * Esse portfólio permite que outras pessoas (recrutadores/clientes) possam ter acesso a algumas informações sobre mim;
 * Aqui você vai encontrar alguns projetos feitos com muita dedicação;
 * Uma área de contato para que possam entrar em contato;
+* Responsividade e design moderno.
 
 ### ⚙️ Pré-requisitos
 
