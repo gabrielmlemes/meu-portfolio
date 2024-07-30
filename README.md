@@ -1,6 +1,3 @@
-
-![Logo do projeto](https://i.imgur.com/kniMQHu.png)
-
 # Gabriel Lemes | Portfólio
 
 * Deploy do projeto: https://portfolio-gabriel-lemes.vercel.app/ 🖥️
@@ -26,6 +23,6 @@ Caso queira, é só baixar!
 
 ## 📄 Licença
 
-Esse projeto está sob a licença MIT license - acesse os detalhes [LICENSE.md](https://github.com/gabrielmlemes/LandingPageBarberShop/blob/master/LICENSE)).
+Esse projeto está sob a licença MIT license - acesse os detalhes [LICENSE.md](https://github.com/gabrielmlemes/meu-portfolio/blob/master/LICENSE)).
 
 * Link para o meu linkedin ([Linkedin](https://www.linkedin.com/in/gabriel-l-775abb103/))
