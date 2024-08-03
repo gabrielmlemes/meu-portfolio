@@ -595,6 +595,7 @@ p {
 label {
   display: block;
   font-weight: bold;
+  margin-bottom: 4px;
 }
 
 input[type="text"],
