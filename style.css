@@ -396,6 +396,9 @@ h4 {
   text-align: center;
   filter: drop-shadow(1px 5px 5px rgba(0, 0, 0, 0.5));
 }
+body.dark-theme .sobre-text {
+  color: #f0f0f5;
+}
 
 .skills {
   margin: 20px auto;
@@ -429,6 +432,9 @@ h4 {
   font-size: 1rem;
   filter: drop-shadow(1px 5px 5px rgba(0, 0, 0, 0.5));
 }
+body.dark-theme .skills-name {
+  color: #eff0f0;
+}
 
 /*
 ----------------------------------- PROJETOS
@@ -436,14 +442,14 @@ h4 {
 
 #projetos {
   height: 100vh;
-  padding-top: 130px;
+  padding-top: 150px;
 }
 
 .conteudo__geral {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 140px;
+  padding-top: 40px;
 }
 
 .container-projetos {
@@ -667,7 +673,12 @@ footer ul li a img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-top: 8px;
 }
+body.dark-theme .footer-alinhamento p{
+  color: #eff0f0;
+}
+
 .footer-alinhamento p {
   font-size: 1rem;
   margin: 0;
@@ -693,6 +704,9 @@ body.dark-theme .footer-icon {
   #projetos {
     height: 90vh;
     padding-top: 145px;
+  }
+  .conteudo__geral {
+    padding-top: 80px;
   }
   .projects-arrow {
     visibility: hidden;
