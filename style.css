@@ -530,6 +530,9 @@ p {
   padding-bottom: 10px;
   filter: drop-shadow(1px 5px 5px rgba(0, 0, 0, 0.5));
 }
+body.dark-theme .links-projetos {
+  color: #222327;
+}
 
 .links-projetos img {
   width: 20px;
@@ -577,7 +580,6 @@ p {
 
 .visit-project {
   text-decoration: none;
-  color: #29fd53;
 }
 
 /*
@@ -783,10 +785,6 @@ body.dark-theme .footer-icon {
     font-size: 1.8rem;
   }
 }
-
-/*
------------------------------------ MENU
-*/
 
 /*
 ----------------------------------- BOTÃO CURRICULO
